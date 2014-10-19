@@ -62,17 +62,15 @@ brew cask install dropbox
 brew cask install onepassword
 brew cask install vlc
 brew cask install hipchat
-brew cask install adobe-creative-cloud
+#brew cask install adobe-creative-cloud
 # Plugins/utilities
 brew cask install silverlight
 brew cask install prey
 brew cask install the-unarchiver
 # For development
-brew cask install phpstorm
+#brew cask install phpstorm
 brew cask install crashlytics
-brew cask install testflight
 brew cask install sublime-text
-brew cask install flow
 brew cask install cyberduck
 brew cask install virtualbox
 brew cask install vagrant
