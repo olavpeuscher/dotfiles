@@ -26,7 +26,7 @@ cp .vimrc ~/.vimrc
 #\curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3
 
 #echo -e "${BLUE}Installing Ruby Gems${RESETCOLOR}"
-#gem install cocoapods rails sinatra jekyll jekyll-sass no-document 
+#gem install cocoapods rails sinatra jekyll jekyll-sass --no-document 
 
 echo -e "${BLUE}Installing homebrew${RESETCOLOR}"
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
