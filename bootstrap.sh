@@ -36,7 +36,7 @@ brew install wget git gcutil ctags python mysql
 brew tap josegonzalez/homebrew-php
 brew tap homebrew/dupes
 brew tap homebrew/versions
-brew install php55-intl
+brew install php55-intl php55-memcached
 brew install josegonzalez/php/composer
 brew install mcrypt php55-mcrypt
 brew install composer phpunit
