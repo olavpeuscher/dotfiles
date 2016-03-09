@@ -36,9 +36,9 @@ brew install wget git gcutil ctags python
 brew tap josegonzalez/homebrew-php
 brew tap homebrew/dupes
 brew tap homebrew/versions
-brew install php55-intl
+brew install php70-intl
 brew install josegonzalez/php/composer
-brew install mcrypt php55-mcrypt
+brew install mcrypt php70-mcrypt
 
 echo -e "Installing PIP (Python)"
 easy_install pip
@@ -56,12 +56,11 @@ brew install brew-cask
 echo -e "${BLUE}Installing basic applications${RESETCOLOR}"
 brew cask install google-chrome
 brew cask install firefox
-brew cask install spotify
 brew cask install dropbox
 brew cask install onepassword
 brew cask install vlc
-brew cask install hipchat
-brew cask install adobe-creative-cloud
+brew cask install slack
+#brew cask install adobe-creative-cloud
 # Plugins/utilities
 brew cask install silverlight
 brew cask install prey
@@ -74,9 +73,8 @@ brew cask install sublime-text
 brew cask install flow
 brew cask install cyberduck
 brew cask install virtualbox
-brew cask install vagrant
 brew cask install sequel-pro
-brew cask install googleappenginelauncher
+#brew cask install googleappenginelauncher
 brew cask install dash
 # For hardware
 brew cask install logitech-control-center
